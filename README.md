@@ -18,6 +18,7 @@ List all the features of your application in the order of priority.
 
 ## Team members
 
-* Roger Federer, Team Lead
-* Tiger Woods, Bug Fixer
+* Amber Walker, Coordinator
+* Brendan Neary, Creative Lead
+* Phina Le, Design Lead
 

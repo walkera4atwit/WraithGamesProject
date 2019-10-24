@@ -1,8 +1,9 @@
-# Your project name
+# TowerDefense
 
 ## Description
 
-Describe briefly what your project is all about.
+A tower defense game that challenges the players with waves of enemies to defend their center of operation from.  This will include hidden cheat codes that players can activate.
+
 
 ## Deliverables
 

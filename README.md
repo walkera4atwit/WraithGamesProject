@@ -7,7 +7,9 @@ A tower defense game that challenges the players with waves of enemies to defend
 
 ## Deliverables
 
-We intend to deliver a fully functional tower defense game. List all the things you want to deliver by the end of the semester.
+We intend to deliver a fully functional tower defense game
+Scoreboard that will track the 5 longest surviving players
+Functioning "cheat codes" that will allow for hidden features
 
 ## Features 
 

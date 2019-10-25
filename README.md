@@ -1,4 +1,4 @@
-# TowerDefense
+# Tower Defense Game
 
 ## Description
 

@@ -13,7 +13,7 @@ functioning "cheat codes" that will allow for hidden features.
 
 ## Features 
 
-User enters their name, selects difficulty and clicks “Play”,
+User can enters their name, selects difficulty and clicks “Play”,
 User can drag and drop tower icons to create defenses,
 User can click the towers to bring up an upgrade UI,
 User can choose from UI option at the bottom of the screen to activate enhanced speed,

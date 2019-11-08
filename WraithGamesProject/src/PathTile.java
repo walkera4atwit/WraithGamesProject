@@ -1,8 +1,8 @@
+import java.util.ArrayList;
 
 public class PathTile extends Tile{
-
-	public static void path(String args[]) {
-		
-	}
-
+	ArrayList<Enemy> enemy;
+	
+	//Change the class diagram arrow
+	
 }

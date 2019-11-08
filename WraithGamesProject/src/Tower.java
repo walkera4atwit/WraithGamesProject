@@ -1,32 +1,52 @@
 
 public class Tower {
+	public static int atkSpeed;
+	public static int level;
+	public static int range;
+	public static int damage;
+	public int aoe;
+	public String type;
 
-	public static void main(String[] args) {
-		int range;
-		int damage;
-		int level;
-		int aoe;
-		int atkSpeed;
-		String type = new String();
+	public static void attack(Enemy e) {
+		e.hp = e.hp - damage;
+	}
+
+	public static void upgrade() {
+		level = level * 2;
+		atkSpeed = atkSpeed * 2;
+		range = range * 2;
+		damage = damage * 2;
 
 	}
-	
-	public void attack(int range, int damage, int aoe, int atkSpeed, String type) {
-		
+
+//do we want this to be tied to the player
+//to allow for the "Sale" of the tower
+	public static void destroy() {
+
 	}
-	
-	public int upgrade(int level, String[] type) {
-		
-		
+
+	public int getAttackSpeed() {
+		return atkSpeed;
+	}
+
+	public int getLevel() {
 		return level;
 	}
-	
-	//do we want this to be tied to the player
-	//to allow for the "Sale" of the tower
-	public void destroy() {
-		
+
+	public int getRange() {
+		return range;
 	}
-	
-	
+
+	public int getDamage() {
+		return damage;
+	}
+
+	public int getAOE() {
+		return aoe;
+	}
+
+	public String getType() {
+		return type;
+	}
 
 }

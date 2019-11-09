@@ -1,3 +1,4 @@
+package wraith;
 
 public class Wave {
 

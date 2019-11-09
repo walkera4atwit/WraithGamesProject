@@ -1,3 +1,4 @@
+package wraith;
 
 public class TowerTile extends Tile {
 
@@ -7,8 +8,9 @@ public class TowerTile extends Tile {
 
 	//Need to display the image used;
 	
-	public TowerTile(){
+	public TowerTile(int x, int y){
 		//Some kind of basic dirt image
+		super(x,y);
 	}
 	
 	/*public TowerTile() {

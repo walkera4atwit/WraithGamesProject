@@ -1,3 +1,4 @@
+package wraith;
 
 public class Tower {
 	public static int atkSpeed;
@@ -11,6 +12,7 @@ public class Tower {
 		e.hp = e.hp - damage;
 	}
 
+	//TODO: better upgrading system
 	public static void upgrade() {
 		level = level * 2;
 		atkSpeed = atkSpeed * 2;

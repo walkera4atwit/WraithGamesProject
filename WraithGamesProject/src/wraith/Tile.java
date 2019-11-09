@@ -1,8 +1,14 @@
+package wraith;
 
 public class Tile {
 	public int xPos;
 	public int yPos;
 	
+	public Tile(int xPos, int yPos) {
+		this.xPos = xPos;
+		this.yPos = yPos;
+	}
+
 	public int getXPos() {
 		return xPos;
 	}

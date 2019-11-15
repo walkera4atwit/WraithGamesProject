@@ -14,7 +14,7 @@ public class Tower {
 
 	//TODO: better upgrading system
 	public static void upgrade() {
-		level = level * 2;
+		level = level + 1; // level +1 instead of level * 2 in case we want a level 3  
 		atkSpeed = atkSpeed * 2;
 		range = range * 2;
 		damage = damage * 2;
@@ -24,7 +24,7 @@ public class Tower {
 //do we want this to be tied to the player
 //to allow for the "Sale" of the tower
 	public static void sell() {
-		//in this, destroy the tower		
+		//in this, destroy the instance of the tower		
 	}
 
 	public int getAttackSpeed() {

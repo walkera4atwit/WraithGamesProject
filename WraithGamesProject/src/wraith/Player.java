@@ -5,6 +5,7 @@ import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 public class Player extends Application{
@@ -16,7 +17,7 @@ public class Player extends Application{
 	int waveNumber;
 	int gameSpeed;
 	public static void main(String[] args) {
-		
+		launch(args);
 		
 		
 	}
@@ -65,16 +66,21 @@ public class Player extends Application{
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		BorderPane root = new BorderPane();
-		Button btn = new Button();
-		
-		root.getChildren().add(btn);
-		btn.setOnAction(e->{
-			System.out.printf("Test");
-		});
-		Scene scene = new Scene(root,400,400);
-		primaryStage.setScene(scene);
-		primaryStage.show();
+		primaryStage.setTitle("Wraith Games");
+        Button btn = new Button();
+        btn.setText("Play");
+        btn.setOnAction(new EventHandler<ActionEvent>() {
+ 
+            @Override
+            public void handle(ActionEvent event) {
+                System.out.println("F");
+            }
+        });
+
+        StackPane root = new StackPane();
+        root.getChildren().add(btn);
+        primaryStage.setScene(new Scene(root, 300, 250));
+        primaryStage.show();
 		
 	}
 

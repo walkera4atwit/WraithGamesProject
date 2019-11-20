@@ -18,13 +18,12 @@ public class Tower {
 		atkSpeed = atkSpeed * 2;
 		range = range * 2;
 		damage = damage * 2;
-
 	}
 
 //do we want this to be tied to the player
 //to allow for the "Sale" of the tower
 	public static void sell() {
-		//in this, destroy the instance of the tower		
+		//in this, destroy the instance of the tower	
 	}
 
 	public int getAttackSpeed() {
@@ -50,5 +49,4 @@ public class Tower {
 	public String getType() {
 		return type;
 	}
-
 }

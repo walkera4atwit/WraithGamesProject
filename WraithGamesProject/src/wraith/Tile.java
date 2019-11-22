@@ -1,5 +1,5 @@
 package wraith;
-
+//tile(Extended by pathTile and towerTile)
 public class Tile {
 	public int xPos;
 	public int yPos;

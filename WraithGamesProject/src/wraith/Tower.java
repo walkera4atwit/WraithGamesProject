@@ -21,7 +21,7 @@ public class Tower {
 	}
 
 //do we want this to be tied to the player
-//to allow for the "Sale" of the tower
+//to allow for the "Sale" of the towers
 	public static void sell() {
 		//in this, destroy the instance of the tower	
 	}

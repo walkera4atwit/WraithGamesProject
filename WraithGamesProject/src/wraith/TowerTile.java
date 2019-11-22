@@ -14,7 +14,7 @@ public class TowerTile extends Tile {
 	}
 	
 	/*public TowerTile() {
-		//Allows setting of a new image.
+		//Allows setting of a new image
 	}*/ 
 	
 	public Tower getTower() {

@@ -24,7 +24,7 @@ public class Player extends Application{
 	
 	public int sellTower(int money) {
 		//call the sell method from the tower class
-		//Use the addmoney method during this to add to the player money count
+		//Use the addmoney method during this to add to the player money amount
 		
 		return money;
 	}

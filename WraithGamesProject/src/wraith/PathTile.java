@@ -1,6 +1,6 @@
 package wraith;
 import java.util.ArrayList;
-
+//extends Tile
 public class PathTile extends Tile{
 	
 	ArrayList<Enemy> enemies = new ArrayList<Enemy>();
